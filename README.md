@@ -9,4 +9,4 @@ Read temperature from a DS18B20 thermometer, format, and write for [Prometheus N
 
 ### Args:
 - -d, --devicePath "Path to directory with device info."
-- -t, textfileExporterPath "Path to directory for node_exporter textfile collector."
+- -t, --textfileExporterPath "Path to directory for node_exporter textfile collector."
