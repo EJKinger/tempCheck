@@ -1,0 +1,4 @@
+[Unit]
+Description=Temp Check
+[Service]
+ExecStart=/usr/local/bin/tempCheck -d /sys/bus/w1/devices -t /var/lib/node_exporter/textfile_collector/probe_temps.prom
