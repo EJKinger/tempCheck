@@ -1,0 +1,8 @@
+[Unit]
+Description=Temp Check
+[Timer]
+OnBootSec=10
+OnUnitActiveSec=10
+AccuracySec=1ms
+[Install]
+WantedBy=timers.target
