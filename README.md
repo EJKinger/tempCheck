@@ -1,4 +1,4 @@
-#tempCheck
+# tempCheck
 
 Read temperature from a DS18B20 thermometer, format, and write for [Prometheus Node Exporter](https://github.com/prometheus/node_exporter) textfile directory.
 
